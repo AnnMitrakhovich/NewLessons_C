@@ -1,0 +1,15 @@
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\bin\Debug\net6.0\Exemple1_HelloWorld.exe
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\bin\Debug\net6.0\Exemple1_HelloWorld.deps.json
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\bin\Debug\net6.0\Exemple1_HelloWorld.runtimeconfig.json
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\bin\Debug\net6.0\Exemple1_HelloWorld.dll
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\bin\Debug\net6.0\Exemple1_HelloWorld.pdb
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.csproj.AssemblyReference.cache
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.AssemblyInfoInputs.cache
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.AssemblyInfo.cs
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.dll
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\refint\Exemple1_HelloWorld.dll
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.pdb
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\Exemple1_HelloWorld.genruntimeconfig.cache
+C:\Users\annmi\OneDrive\Рабочий стол\Lesson1_C#\Exemple1_HelloWorld\obj\Debug\net6.0\ref\Exemple1_HelloWorld.dll
