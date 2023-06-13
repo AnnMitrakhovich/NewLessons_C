@@ -242,5 +242,6 @@
 // }
 // int number1 = InputNumber("Введите число: ");
 // Console.WriteLine(DayOFF(number1, "Это выходной? "));
+// в идеальном решении через bool.
 
 
