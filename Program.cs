@@ -143,26 +143,73 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-int InputNumber (string message)
-{
-    Console.Write(message);
-    int number = Convert.ToInt32(Console.ReadLine()!);
-    return number;
-}
-int FindSecondDigit(int num)
-{
-    int tennum = num / 10;
-    int secondnum = tennum % 10;
-    return secondnum;
-}
-int number1 = InputNumber("Введите трехзначное число: ");
-int second = FindSecondDigit(number1);
-Console.WriteLine($"Для трехзначного числа {number1} вторая цифра равна {second}.");
+// int InputNumber (string message)
+// {
+//     Console.Write(message);
+//     int number = Convert.ToInt32(Console.ReadLine()!);
+//     return number;
+// }
+// int FindSecondDigit(int num)
+// {
+//     int tennum = num / 10;
+//     int secondnum = tennum % 10;
+//     return secondnum;
+// }
+// int number1 = InputNumber("Введите трехзначное число: ");
+// int second = FindSecondDigit(number1);
+// Console.WriteLine($"Для трехзначного числа {number1} вторая цифра равна {second}.");
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
+int InputNumber(string message)
+{
+    Console.Write(message);
+    int number = Convert.ToInt32(Console.ReadLine()!);
+    return number;
+}
+int FindSection(int number1)
+{
+    int index = 0;
+    int ost = number1 % 10;
+    while (ost > 0)
+    {
+        number1 = number1 / 10;
+        index++;
+        ost = number1 % 10;
+    }
+    return index;
+}
+int FindThirdDigit(int number2, int N)
+{
+    int index1 = 0;
+    int ost1 = number2 % 10;
+    while (index1 < N - 3)
+    {
+        number2 = number2 / 10;
+        index1++;
+        ost1 = number2 % 10;
+    }
+    return ost1;
+}
+int number = InputNumber("Введите число: ");
+if (number < 99)
+{
+    Console.WriteLine("Третьей цифры нет.");
+}
+else
+{
+    int section = FindSection(number);
+    Console.WriteLine($"Это {section}-значное число.");
+    int third = FindThirdDigit(number, section);
+    Console.WriteLine($"Третья цифра заданного числа: {third}.");
+}
+
+
+
+
+
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
