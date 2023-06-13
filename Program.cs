@@ -163,59 +163,84 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
-int InputNumber(string message)
-{
-    Console.Write(message);
-    int number = Convert.ToInt32(Console.ReadLine()!);
-    return number;
-}
-int FindSection(int number1)
-{
-    int index = 0;
-    int ost = number1 % 10;
-    while (ost > 0)
-    {
-        number1 = number1 / 10;
-        index++;
-        ost = number1 % 10;
-    }
-    return index;
-}
-int FindThirdDigit(int number2, int N)
-{
-    int index1 = 0;
-    int ost1 = number2 % 10;
-    while (index1 < N - 3)
-    {
-        number2 = number2 / 10;
-        index1++;
-        ost1 = number2 % 10;
-    }
-    return ost1;
-}
-int number = InputNumber("Введите число: ");
-if (number < 99)
-{
-    Console.WriteLine("Третьей цифры нет.");
-}
-else
-{
-    int section = FindSection(number);
-    Console.WriteLine($"Это {section}-значное число.");
-    int third = FindThirdDigit(number, section);
-    Console.WriteLine($"Третья цифра заданного числа: {third}.");
-}
+// int InputNumber(string message)
+// {
+//     Console.Write(message);
+//     int number = Convert.ToInt32(Console.ReadLine()!);
+//     return number;
+// }
+// int FindSection(int number1)
+// {
+//     int index = 0;
+//     int ost = number1 % 10;
+//     while (ost > 0)
+//     {
+//         number1 = number1 / 10;
+//         index++;
+//         ost = number1 % 10;
+//     }
+//     return index;
+// }
+// int FindThirdDigit(int number2, int N)
+// {
+//     int index1 = 0;
+//     int ost1 = number2 % 10;
+//     while (index1 < N - 3)
+//     {
+//         number2 = number2 / 10;
+//         index1++;
+//         ost1 = number2 % 10;
+//     }
+//     return ost1;
+// }
+// int number = InputNumber("Введите число: ");
+// if (number < 100)
+// {
+//     Console.WriteLine("Третьей цифры нет.");
+// }
+// else
+// {
+//     int section = FindSection(number);
+//     Console.WriteLine($"Это {section}-значное число.");
+//     int third = FindThirdDigit(number, section);
+//     Console.WriteLine($"Третья цифра заданного числа: {third}.");
+// }
 
-
-
-
-
+// или проще:
+// int FindThirdDigit(int number2)
+// {
+//     while (number2 > 999)
+//     {
+//         number2 /= 10;
+//     }
+//     return number2 % 10;
+// }
+// Console.WriteLine(FindThirdDigit(number));
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
 // 7 -> да
 // 1 -> нет
-
-
+// int InputNumber(string message)
+// {
+//     Console.Write(message);
+//     int number = Convert.ToInt32(Console.ReadLine()!);
+//     return number;
+// }
+// string DayOFF(int numday, string answer)
+// {
+//     if (numday > 0 && numday < 6)
+//     {
+//         answer = "Нет";
+//     }
+//     else if (numday >= 6 && numday < 8)
+//     {
+//         answer = "Да!";
+//     }
+//     else answer = "Это не день недели. Введите день от 1 до 7";
+//     return answer;
+// }
+// int number1 = InputNumber("Введите число: ");
+// Console.WriteLine(DayOFF(number1, "Это выходной? "));
 
 
