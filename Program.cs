@@ -149,8 +149,14 @@ int InputNumber (string message)
     int number = Convert.ToInt32(Console.ReadLine()!);
     return number;
 }
-
+int FindSecondDigit(int num)
+{
+    int tennum = num / 10;
+    int secondnum = tennum % 10;
+    return secondnum;
+}
 int number1 = InputNumber("Введите трехзначное число: ");
+int second = FindSecondDigit(number1);
 Console.WriteLine($"Для трехзначного числа {number1} вторая цифра равна {second}.");
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
